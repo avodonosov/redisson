@@ -4,11 +4,12 @@
     <parent>
         <groupId>org.redisson</groupId>
         <artifactId>redisson-tomcat</artifactId>
-        <version>3.14.1-SNAPSHOT</version>
+        <version>${redisson-tomcat.version}</version>
         <relativePath>../</relativePath>
     </parent>
 
     <artifactId>redisson-tomcat-7</artifactId>
+    <version>${redisson-tomcat-7.version}</version>
     <packaging>jar</packaging>
 
     <name>Redisson/Tomcat-7</name>

@@ -4,11 +4,12 @@
     <parent>
         <groupId>org.redisson</groupId>
         <artifactId>redisson-spring-data</artifactId>
-        <version>3.14.1-SNAPSHOT</version>
+        <version>${redisson-spring-data.version}</version>
         <relativePath>../</relativePath>
     </parent>
 
     <artifactId>redisson-spring-data-24</artifactId>
+    <version>${redisson-spring-data-24.version}</version>
     <packaging>jar</packaging>
 
     <name>Redisson/Spring Data Redis v2.4.x integration</name>

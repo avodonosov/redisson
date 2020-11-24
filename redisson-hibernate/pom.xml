@@ -4,11 +4,12 @@
     <parent>
         <groupId>org.redisson</groupId>
         <artifactId>redisson-parent</artifactId>
-        <version>3.14.1-SNAPSHOT</version>
+        <version>${redisson-parent.version}</version>
         <relativePath>../</relativePath>
     </parent>
 
     <artifactId>redisson-hibernate</artifactId>
+    <version>${redisson-hibernate.version}</version>
     <packaging>pom</packaging>
 
     <name>Redisson/Hibernate cache</name>
@@ -37,7 +38,7 @@
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
-            <version>${project.version}</version>
+            <version>${redisson.version}</version>
         </dependency>
 
         <dependency>

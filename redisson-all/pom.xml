@@ -4,11 +4,12 @@
     <parent>
         <groupId>org.redisson</groupId>
         <artifactId>redisson-parent</artifactId>
-        <version>3.14.1-SNAPSHOT</version>
+        <version>${redisson-parent.version}</version>
         <relativePath>../</relativePath>
     </parent>
 
     <artifactId>redisson-all</artifactId>
+    <version>${redisson-all.version}</version>
     <packaging>jar</packaging>
 
     <name>Redisson/All-in-One</name>
@@ -77,7 +78,7 @@
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
-            <version>${project.version}</version>
+            <version>${redisson.version}</version>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>

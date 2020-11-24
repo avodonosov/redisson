@@ -4,11 +4,12 @@
     <parent>
         <groupId>org.redisson</groupId>
         <artifactId>redisson-parent</artifactId>
-        <version>3.14.1-SNAPSHOT</version>
+        <version>${redisson-parent.version}</version>
         <relativePath>../</relativePath>
     </parent>
 
     <artifactId>redisson</artifactId>
+    <version>${redisson.version}</version>
 
     <name>Redisson</name>
     <description>Redis Java client with features of In-Memory Data Grid</description>
